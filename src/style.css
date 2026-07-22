@@ -109,3 +109,14 @@ body {
 .banner-img {
     width: 100vw;
 }
+
+.burgerContainer, .side-container, .beverage-container{
+    display: flex;
+    align-items: center;
+}
+
+.burger-card, .side-card, .beverage-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
