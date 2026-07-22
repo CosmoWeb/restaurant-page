@@ -9,6 +9,13 @@ const displayHome = () => {
     const hours = document.createElement("div");
     const location = document.createElement("div");
 
+    title.classList.add("title");
+    banner.classList.add("banner");
+    img.classList.add("banner-img");
+    about.classList.add("about");
+    hours.classList.add("hours");
+    location.classList.add("location");
+
     for (let i = 0; i < 3; i++) {
         if (i === 0) {
             const subTitle = document.createElement("h2");
