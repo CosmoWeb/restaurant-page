@@ -1,0 +1,111 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Edmunds';
+    src: url('font/Edmunds-Regular.woff2') format('woff2'),
+        url('font/Edmunds-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/*My CSS*/
+body {
+    background-color: rgb(224, 193, 125);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 6rem;
+    color: rgb(218, 70, 11);
+    font-family: "Edmunds";
+    text-shadow: 4px 0 #000, -4px 0 #000, 0 4px #000, 0 -4px #000,
+        2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
+}
+
+.banner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(218, 70, 11);
+    border-top: 2px solid black;
+}
+
+.banner-img {
+    width: 100vw;
+}
