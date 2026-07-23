@@ -25,6 +25,9 @@ const displayMenu = () => {
     sideContainer.classList.add("side-container");
     beverageContainer.classList.add("beverage-container");
     title.classList.add("title");
+    burgerTitle.classList.add("sub-title");
+    sideTitle.classList.add("sub-title");
+    beverageTitle.classList.add("sub-title");
 
     title.textContent = "Menu";
     burgerTitle.textContent = "Burgers";

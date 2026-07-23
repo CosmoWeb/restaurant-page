@@ -20,6 +20,7 @@ const displayHome = () => {
         if (i === 0) {
             const subTitle = document.createElement("h2");
             const text = document.createElement("span");
+            subTitle.classList.add("sub-title");
             subTitle.textContent = "Who we are";
             text.textContent = "Enjoy the gritty taste of a Big Fat Burger! Since 1892, BFB has been serving the oilest and fatter burgers of all the country. What are you waiting for? Get your hands dirty with our best burgers!";
             about.appendChild(subTitle);
@@ -28,6 +29,7 @@ const displayHome = () => {
         else if (i === 1) {
             const subTitle = document.createElement("h2");
             const text = document.createElement("span");
+            subTitle.classList.add("sub-title");
             subTitle.textContent = "Hours";
             text.textContent = "24/7 WE NEVER CLOSE!!!";
             hours.appendChild(subTitle);
@@ -36,6 +38,7 @@ const displayHome = () => {
         else {
             const subTitle = document.createElement("h2");
             const text = document.createElement("span");
+            subTitle.classList.add("sub-title");
             subTitle.textContent = "Location";
             text.textContent = "66 Dusty Road, Junkyard, Bidon County";
             location.appendChild(subTitle),
