@@ -81,6 +81,7 @@ h6 {
 /*My CSS*/
 body {
     background-color: rgb(224, 193, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #content {
@@ -113,6 +114,7 @@ body {
 .burgerContainer, .side-container, .beverage-container{
     display: flex;
     align-items: center;
+    padding: 2rem;
 }
 
 .burger-card, .side-card, .beverage-card{
